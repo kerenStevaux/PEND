@@ -1,0 +1,93 @@
+1. Declarando Variáveis
+ 
+var nome = "João";
+var idade = 25;
+var cidade = "São Paulo";
+
+console.log("Nome:", nome);
+console.log("Idade:", idade);
+console.log("Cidade:", cidade);
+
+
+2. Nomeação de Variáveis
+
+var 2nome;
+Correção: var nome2;
+
+var _idade;  // Está correto
+
+var cidade-natal;
+Correção: var cidadeNatal;
+
+var $preco;  // Está correto
+
+var let; 
+Correção: var valorLet; 
+
+
+3. Declarando sem Inicializar
+
+var altura;
+console.log("Altura:", altura);
+
+O que acontece?
+Quando declaramos a variável altura sem atribuir um valor, o valor será "não definido".
+Isso acontece porque a variável foi declarada, mas não foi inicializada com nenhum valor.
+
+
+4. Inicializando Variáveis
+
+altura = 1.61;
+console.log("Altura:", altura);
+
+
+5. Strict Mode
+
+A saída será um erro no console, esse erro acontece porque a variável não foi declarada no inicio sendo ela como var, let ou const.
+
+
+6. Alterando Valores de Variáveis
+
+let contador = 0;  
+
+contador = contador + 1; 
+contador = contador + 1;  
+contador = contador + 1;  
+
+console.log(contador); 
+
+No final o resultado mostrado será 3.
+
+
+7. Trabalhando com Constantes
+
+Quando você declara uma constante, o valor não pode ser reatribuído. Por isso quando tentar mudar o valor de PI, nõ dará certo. 
+
+
+8. Diferença entre var, let e const
+
+O var tem escopo de função ou global. Quando declarada dentro de uma função, a variável é acessível em toda a função. Se fora de uma função, é global. Mesmo dentro de um bloco.
+
+O let tem escopo de bloco, a variável está disponível apenas dentro do bloco em que foi declarada.
+
+O const assim como os outros ele também tem escopo de bloco.
+
+exemplo:
+function exemplo() {
+let height = 180;
+{
+    let weight = 70;
+    console.log(height); // -> 180
+    console.log(weight); // -> 70
+}
+console.log(height); // -> 180
+console.log(weight)
+}
+
+9. 
+Primeira chamada do console.log(a) dentro do if: A variável a foi declarada com var (escopo de função). Então mesmo estando dentro do bloco if, a é acessível e imprimirá 10.
+Segunda chamada do console.log(b) dentro do if: A variável b foi declarada com let Como o console.log(b) está dentro desse bloco, a variável será acessível e imprimirá 20.
+Terceira chamada do console.log(a) fora do if: A variável a continua acessível fora do bloco if porque foi declarada com var (escopo de função). Imprimirá 10.
+Quarta chamada do console.log(b) fora do if: A variável b foi declarada com let dentro do bloco if, logo ela não será acessível fora desse bloco e causará um erro: ReferenceError: b is not defined.
+
+
