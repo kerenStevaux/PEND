@@ -1,0 +1,86 @@
+1. Olá, Dart!
+void main() {
+  String nome = "Olá, Dart!";
+  print("$nome");
+}
+
+
+2. Cálculo de Área
+void main() {
+   double base = 25.5;
+   double altura = 30.5;
+   print(base * altura);
+}
+
+
+3. Par ou Ímpar?
+void main() {
+  int numero = 8;
+  if (numero % 2 == 0) {
+    print('O número $numero é par.');
+  } else {
+    print('O número $numero é ímpar.');
+  }
+}
+
+
+4. Maior Número
+void main(){
+  int numero1 = 50;
+  int numero2 = 20;
+  if(numero1 > numero2){
+    print("esse numero é maior: $numero1");
+  }else{
+    print("esse numero é maior: $numero2");
+  }
+}
+
+
+5. Nota e Conceito
+void main() {
+  int nota = 50; 
+  String conceito;
+  if (nota >= 90) {
+    conceito = "A";
+  } else if (nota >= 80) {
+    conceito = "B";
+  } else if (nota >= 70) {
+    conceito = "C";
+  } else if (nota >= 60) {
+    conceito = "D";
+  } else {
+    conceito = "F";
+  }
+  print("Conceito: $conceito");
+}
+
+
+6. Contagem Progressiva
+void main() {
+  int numero = 80;
+  for (int i = 1; i <= numero; i++){
+  print(i);
+  }
+}
+
+
+7. Soma de Números
+void main() {
+  int numero = 10;
+  int soma = 0;
+  int contador = 1;
+  while (contador <= numero){
+    soma += contador;
+    contador++;
+  }
+  print("A soma de 1 até $numero é $soma");
+}
+
+
+8. Tabuada Automática
+void main() {
+  int numero = 7;
+  for (int i = 1; i <= 10; i++) {
+    print("$numero x $i = ${numero * i}");
+  }
+}
