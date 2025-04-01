@@ -24,5 +24,13 @@ let y = 10;
 let z = (x++ * --y) / 2 + (y % 3);
 console.log("Valor de z:", z);
 
-/*O valor final de z será 22.5.
- A sequência de operações segue a ordem dos operadores e as regras de conversão implícita, levando a este valor final.*/
+/*No início, x = 5, então o valor de x++ é 5 e depois x é incrementado para 6.
+O operador --y é decrementado primeiro e depois o valor é usado na expressão. 
+y vale 10, então se torna 9 antes de ser usado na operação.
+
+x++ * --y: Agora temos a expressão 5 * 9, que resulta em 45.
+O resultado 45 é dividido por 2, o que dá 22.5 
+
+y % 3: O operador % é o operador de módulo, que retorna o resto da divisão de y por 3.
+Com y = 9, temos 9 % 3 = 0 (porque 9 dividido por 3 tem resto 0).
+ somamos o resultado da divisão 22.5 com o resultado do módulo 0, ou seja, 22.5 + 0 = 22.5.*/
