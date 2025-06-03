@@ -1,7 +1,7 @@
 //1. Definições Básicas
-// 1.1 - Erro: É uma falha que ocorre durante a execução do código, interrompendo o fluxo normal.
-// 1.2 - Exceção: É um tipo de erro que pode ser "capturado" e tratado com try...catch.
-// 1.3 - Diferença: Um "erro" em linguagem natural pode ser algo inesperado; já uma "exceção" em JS é um erro específico que pode ser tratado programaticamente.
+//  Erro: É uma falha que ocorre durante a execução do código, interrompendo o fluxo normal.
+//  Exceção: É um tipo de erro que pode ser "capturado" e tratado com try...catch.
+//  Diferença: Um "erro" em linguagem natural pode ser algo inesperado; já uma "exceção" em JS é um erro específico que pode ser tratado programaticamente.
 
 
 //2. Erros sem Exceções?
@@ -141,10 +141,10 @@ soma(2, undefined);
 
 //10. Preparação do Ambiente de Depuração
 // Passos:
-// 1. Abra o navegador (Chrome, Firefox).
-// 2. Pressione F12 ou clique com o botão direito e escolha "Inspecionar".
-// 3. Vá até a aba “Sources” (ou “Depurador” no Firefox).
-// 4. Lá você pode ver os arquivos JS carregados e adicionar breakpoints.
+//  Abra o navegador (Chrome, Firefox).
+//  Pressione F12 ou clique com o botão direito e escolha "Inspecionar".
+//  Vá até a aba “Sources” (ou “Depurador” no Firefox).
+//  Lá você pode ver os arquivos JS carregados e adicionar breakpoints.
 
 
 //11. Uso do debugger
