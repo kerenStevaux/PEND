@@ -17,7 +17,7 @@ console.log(lista[10]);
 
 function validarEntrada(entrada) {
   if (isNaN(Number(entrada))) {
-    console.log("Erro: número esperado, string recebida");
+    console.log("Erro: string recebida");
   } else {
     console.log("Entrada válida:", Number(entrada));
   }
