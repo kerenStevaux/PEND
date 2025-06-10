@@ -176,7 +176,8 @@ externo(4);
 // No momento da execução de `interno`:
 ▶ externo
   ▶ interno
-// questão 14
+
+//14. Depuração Sem debugger
 /*Depois de atingir um breakpoint no painel de ferramentas do navegador:
 para retomar normalmente, clique no botão "Resume script execution" (ícone de play/F8).
 para remover todos os breakpoints, clique com o botão direito na área de breakpoints e escolha "Remove all breakpoints" ou use o botão*/
